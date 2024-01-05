@@ -1,62 +1,56 @@
 [
 	{
-		"slug": "ti-brand-primary",
-		"value": "#A1B2C3",
-		"description": "Primary brand color. Can be used for buttons, links, and sometimes as background. Any text over this should apply the px-on-brand color."
-	},
-	{
-		"slug": "ti-brand-secondary",
-		"value": "#D4E5F6",
-		"description": "Secondary brand color. Can be used for accents, and sometimes as background."
-	},
-	{
-		"slug": "ti-bg-body",
-		"value": "#F8F8F8",
+		"slug": "base",
+		"name": "Background",
+		"color": "#ffffff",
 		"description": "The main body color of the website. Usually white or almost white."
 	},
 	{
-		"slug": "ti-bg-light",
-		"value": "#EAEAEA",
+		"slug": "base-2",
+		"name": "Light Background",
+		"color": "#f7f7f3",
 		"description": "A subtle variation of the body background, that is used to visually separate sections and areas of the layout."
 	},
 	{
-		"slug": "ti-bg-lighter",
-		"value": "#DDDDDD",
-		"description": "A lighter tint of the light background."
+		"slug": "base-3",
+		"name": "Dark Background",
+		"color": "#1A1919",
+		"description": "Areas of the website that have a dark background. Any text over dark background areas should have the Text on Dark color (contrast-4) to ensure proper contrast."
 	},
 	{
-		"slug": "ti-bg-dark",
-		"value": "#333333",
-		"description": "Areas of the website that have a dark background, and require tet to be inverted in order to be readable. For example, text over a black background needs to be white."
+		"slug": "contrast",
+		"name": "Text",
+		"color": "#0C0C0C",
+		"description": "The main color of the body text. It is applied to text that is over the body background (base) or any of the light (base-2) backgrounds."
 	},
 	{
-		"slug": "ti-bg-darker",
-		"value": "#111111",
-		"description": "A darker tint of the dark background."
+		"slug": "contrast-2",
+		"name": "Secondary text",
+		"color": "rgba(0,0,0, 0.5)",
+		"description": "This color is applied on secondary text. The color should have sufficient contrast when placed over the body or light backgrounds (base and base-2)."
 	},
 	{
-		"slug": "ti-type-body",
-		"value": "#222222",
-		"description": "The main color of the body text. It is applied on text that is over the body background, or any of the light variants."
+		"slug": "contrast-3",
+		"name": "Border",
+		"color": "rgba(0,0,0, 0.5)",
+		"description": "This color is applied on borders. The color should have sufficient contrast when placed over the body or light backgrounds (base and base-2) and is lighter than contrast-3."
 	},
 	{
-		"slug": "ti-type-titles",
-		"value": "#444444",
-		"description": "The color of headings. Usually the titles are the same color as the body text. ut if the user wants to have a dedicated color, we can provide that. This can be an existing brand color or complementary. It would be great if this color could work for headinngs over dark backgrounds, but it is not a requirement."
+		"slug": "contrast-4",
+		"name": "Text on dark",
+		"color": "#F8F8F8",
+		"description": "This color is applied to text that is over a dark background (base-3). For example, if the background color is black, the text color is white, or a color that ensures proper contrast."
 	},
 	{
-		"slug": "ti-type-secondary",
-		"value": "#888888",
-		"description": "This is some visually downplayed text color. Think of it like gray text. For efficiency, this can be an opacity of the body color. Must be readable over body and light backgrounds."
+		"slug": "accent",
+		"name": "Accent",
+		"color": "#325CE8",
+		"description": "Primary accent color. Can be used for buttons, links, and sometimes as a background. Any text over the accent background should apply the text-on-dark (contrast-4) color."
 	},
 	{
-		"slug": "ti-type-on-dark",
-		"value": "#FFFFFF",
-		"description": "This color is applied on text that is over a dark background. For example, if the background color is black, the text color is white."
-	},
-	{
-		"slug": "ti-type-on-brand",
-		"value": "#FFFFFF",
-		"description": "For any text that is over the brand color, we apply this color. This color should provide sufficient contrast."
+		"slug": "accent-2",
+		"name": "Accent 2",
+		"color": "#466DEC",
+		"description": "Secondary accent color. Can be used for buttons, links, and sometimes as a background. Any text over the accent background should apply the text-on-dark (contrast-4) color."
 	}
 ]

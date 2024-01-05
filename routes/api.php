@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\OpenAIController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,5 +17,8 @@ use App\Http\Controllers\ImageController;
 |
 */
 
-Route::get('/images', [ImageController::class, 'search']);
-
+Route::post('/wizard/start', [OpenAIController::class, 'start']);
+Route::post('/wizard/send', [OpenAIController::class, 'send']);
+Route::get('/wizard/status', [OpenAIController::class, 'status']);
+Route::get('/wizard/get', [OpenAIController::class, 'get']);
+Route::get('/wizard/images', [ImageController::class, 'search']);
