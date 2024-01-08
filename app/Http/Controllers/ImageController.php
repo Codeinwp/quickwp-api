@@ -51,17 +51,29 @@ class ImageController extends Controller
             array_merge(
                 [
                     'query' => $query,
-                    'per_page' => 15,
+                    'per_page' => 30,
                 ]
             )
         );
 
         if ( $response->unauthorized() ) {
-            throw new \Exception( 'API key is invalid. Please contact the administrator.' );
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'API key is invalid. Please contact the administrator.'
+                ],
+                $response->status()
+            );
         }
 
         if ( $response->tooManyRequests() ) {
-            throw new \Exception( 'API key has exceeded the rate limit. Please contact the administrator.' );
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'API key has exceeded the rate limit. Please contact the administrator.'
+                ],
+                $response->status()
+            );
         }
 
         return response( $response->json(), $response->status() );

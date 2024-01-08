@@ -17,7 +17,6 @@ use App\Http\Controllers\OpenAIController;
 |
 */
 
-Route::post('/wizard/start', [OpenAIController::class, 'start']);
 Route::post('/wizard/send', [OpenAIController::class, 'send']);
 Route::get('/wizard/status', [OpenAIController::class, 'status']);
 Route::get('/wizard/get', [OpenAIController::class, 'get']);

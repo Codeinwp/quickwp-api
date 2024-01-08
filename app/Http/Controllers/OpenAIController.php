@@ -44,34 +44,26 @@ class OpenAIController extends Controller
     }
 
     /**
-     * Create a new thread instance.
-     */
-    public function start(): Response
-    {
-        $response = $this->client->post( 'threads' );
-
-        if ( $response->unauthorized() ) {
-            throw new \Exception( 'API key is invalid. Please contact the administrator.' );
-        }
-
-        return response( $response->json(), $response->status() );
-    }
-
-    /**
      * Send a message to the thread.
      */
     public function send( Request $request ): Response
     {
-        $thread_id = $request->input( 'thread_id' );
         $message = $request->input( 'message' );
         $step = $request->input( 'step' );
 
-        if ( empty( $thread_id ) || empty( $step ) ) {
-            return response( [ 'error' => 'Thread ID or message is empty.' ], 400 );
+        if ( empty( $step ) ) {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Thread ID or message is empty.'
+                ],
+                400
+            );
         }
 
         $prompts = [
-            'color_palette' => 'You are an assistant that helps users create a website template using their prompt. You will get a description of the website. You create a color palette array for a website. Using the description, you will interpret and align the color choices with the website\'s theme and style. It must reference the \'color-example.json\' file, using the \'description\' field of each color as a guide to generate a creative and thematic \'name\' and \'value\' for each color. The \'slug\' should match exactly as given in the JSON file. You should then generate a new color hex value that corresponds to the thematic interpretation based on the website\'s description. The output will be an array of objects with \'name\', \'slug\', and \'color\' (newly generated hex value) for each color, reflecting a palette that complements the website\'s aesthetic as described. Response format must be a JSON-array of the colors and nothing else. I repeat, your response should only be the JSON-array without any other text. From this point on, this is the description of the website:'
+            'color_palette' => 'You are an assistant that helps users create a website template using their prompt. You will get a description of the website. You create a color palette array for a website. Using the description, you will interpret and align the color choices with the website\'s theme and style. It must reference the \'color-example.json\' file, using the \'description\' field of each color as a guide to generate a creative and thematic \'name\' and \'value\' for each color. The \'slug\' should match exactly as given in the JSON file. You should then generate a new color hex value that corresponds to the thematic interpretation based on the website\'s description. The output will be an array of objects with \'name\', \'slug\', and \'color\' (newly generated hex value) for each color, reflecting a palette that complements the website\'s aesthetic as described. Response format must be a JSON-array of the colors and nothing else. I repeat, your response should only be the JSON-array without any other text. From this point on, this is the description of the website:',
+            'images' => 'You will get a description of the website. Based on the description of the website, you will return a primary keyword that will be used to search for images on Pexels. The keyword should not be larger than 4 words that is relevant to the website\'s description. Response format must be the search word and nothing else. I repeat, your response should only be the search keyword without any other text. From this point on, this is the description of the website:',
         ];
 
         $params = [
@@ -83,10 +75,35 @@ class OpenAIController extends Controller
             $params['additional_instructions'] = $message;
         }
 
+
+        $response = $this->client->post( 'threads' );
+
+        if ( ! $response->successful() ) {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Unable to create a new thread.'
+                ],
+                $response->status()
+            );
+        }
+
+        $thread_id = $response->json()['id'];
+
         $response = $this->client->post(
             'threads/' . $thread_id . '/runs',
             $params
         );
+
+        if ( ! $response->successful() ) {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Unable to create a new thread.'
+                ],
+                $response->status()
+            );
+        }
 
         return response( $response->json(), $response->status() );
     }
@@ -102,6 +119,16 @@ class OpenAIController extends Controller
             'threads/' . $thread_id . '/messages'
         );
 
+        if ( ! $response->successful() ) {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Unable to create a new thread.'
+                ],
+                $response->status()
+            );
+        }
+
         return response( $response->json(), $response->status() );
     }
 
@@ -116,6 +143,16 @@ class OpenAIController extends Controller
         $response = $this->client->get(
             'threads/' . $thread_id . '/runs/' . $run_id
         );
+
+        if ( ! $response->successful() ) {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Unable to create a new thread.'
+                ],
+                $response->status()
+            );
+        }
 
         return response( $response->json(), $response->status() );
     }
