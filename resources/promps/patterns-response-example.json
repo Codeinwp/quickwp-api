@@ -1,0 +1,122 @@
+[
+	{
+		"order": 1,
+		"slug": "quickwp/hero-centered",
+		"strings": [
+			{
+				"slug": "hero-centered/title",
+				"value": "Welcome to Ping Pong Paradise!"
+			},
+			{
+				"slug": "hero-centered/subtitle",
+				"value": "Your One-Stop Shop for Premium Ping Pong Tables"
+			},
+			{
+				"slug": "hero-centered/button-primary",
+				"value": "Shop Now"
+			},
+			{
+				"slug": "hero-centered/button-secondary",
+				"value": "Learn More"
+			}
+		]
+	},
+	{
+		"order": 2,
+		"slug": "quickwp/feature-columns",
+		"strings": [
+			{
+				"slug": "feature-columns/title",
+				"value": "Why Choose Us?"
+			},
+			{
+				"slug": "feature-columns/subtitle",
+				"value": "Discover the Features That Set Us Apart"
+			},
+			{
+				"slug": "feature-columns/item-1/title",
+				"value": "Premium Quality Tables"
+			},
+			{
+				"slug": "feature-columns/item-1/description",
+				"value": "Experience the best in table tennis with our top-notch tables."
+			},
+			{
+				"slug": "feature-columns/item-1/button",
+				"value": "Explore"
+			},
+			{
+				"slug": "feature-columns/item-2/title",
+				"value": "Expert Guidance"
+			},
+			{
+				"slug": "feature-columns/item-2/description",
+				"value": "Our knowledgeable staff is here to help you make the right choice."
+			},
+			{
+				"slug": "feature-columns/item-2/button",
+				"value": "Get Advice"
+			},
+			{
+				"slug": "feature-columns/item-3/title",
+				"value": "Fast Shipping"
+			},
+			{
+				"slug": "feature-columns/item-3/description",
+				"value": "We deliver your ping pong table to your doorstep in no time."
+			},
+			{
+				"slug": "feature-columns/item-3/button",
+				"value": "Order Now"
+			}
+		]
+	},
+	{
+		"order": 3,
+		"slug": "quickwp/content-columns",
+		"strings": [
+			{
+				"slug": "content-columns/subtitle",
+				"value": "Explore Our Ping Pong Table Selection"
+			},
+			{
+				"slug": "content-columns/title",
+				"value": "Discover the Perfect Ping Pong Table for You"
+			},
+			{
+				"slug": "content-columns/paragraph-1",
+				"value": "At Ping Pong Paradise, we offer a wide range of ping pong tables to suit every player's needs."
+			},
+			{
+				"slug": "content-columns/paragraph-2",
+				"value": "Whether you're a casual player or a professional, we have the perfect table for you."
+			},
+			{
+				"slug": "content-columns/paragraph-3",
+				"value": "Explore our selection and find your ideal ping pong table today!"
+			},
+			{
+				"slug": "content-columns/paragraph-4",
+				"value": "We also provide expert assembly services to ensure your table is set up correctly."
+			}
+		]
+	},
+	{
+		"order": 4,
+		"slug": "quickwp/call-to-action-1",
+		"strings": [
+			{
+				"slug": "call-to-action-1/title",
+				"value": "Ready to Get Started?"
+			},
+			{
+				"slug": "call-to-action-1/subtitle",
+				"value": "Explore Our Ping Pong Tables and Start Playing Today!"
+			},
+			{
+				"slug": "call-to-action-1/button",
+				"value": "Shop Now"
+			}
+		]
+	}
+]
