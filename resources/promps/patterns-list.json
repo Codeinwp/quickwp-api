@@ -49,6 +49,12 @@
 				"slug": "content-columns/paragraph-4",
 				"description": "Fourth paragraph of the content section. It appears on the right side above the image"
 			}
+		],
+		"images": [
+			{
+				"slug": "content-columns/image",
+				"description": "Image of the content section"
+			}
 		]
 	},
 	{
@@ -101,6 +107,20 @@
 				"slug": "feature-columns/item-3/button",
 				"description": "Button text of the third feature"
 			}
+		],
+		"images": [
+			{
+				"slug": "feature-columns/item-1/image",
+				"description": "Image of the first feature"
+			},
+			{
+				"slug": "feature-columns/item-2/image",
+				"description": "Image of the second feature"
+			},
+			{
+				"slug": "feature-columns/item-3/image",
+				"description": "Image of the third feature"
+			}
 		]
 	},
 	{
@@ -124,6 +144,12 @@
 			{
 				"slug": "hero-centered/button-secondary",
 				"description": "Secondary button text of the hero section"
+			}
+		],
+		"images": [
+			{
+				"slug": "hero-centered/image",
+				"description": "Background image of the hero section"
 			}
 		]
 	}

@@ -19,6 +19,12 @@
 				"slug": "hero-centered/button-secondary",
 				"value": "Learn More"
 			}
+		],
+		"images": [
+			{
+				"slug": "hero-centered/image",
+				"src": "https://quickwp.ai/wp-content/uploads/2021/08/hero-centered.jpg"
+			}
 		]
 	},
 	{
@@ -69,6 +75,20 @@
 				"slug": "feature-columns/item-3/button",
 				"value": "Order Now"
 			}
+		],
+		"images": [
+			{
+				"slug": "feature-columns/item-1/image",
+				"src": "https://quickwp.ai/wp-content/uploads/2021/08/feature-columns-1.jpg"
+			},
+			{
+				"slug": "feature-columns/item-2/image",
+				"src": "https://quickwp.ai/wp-content/uploads/2021/08/feature-columns-2.jpg"
+			},
+			{
+				"slug": "feature-columns/item-3/image",
+				"src": "https://quickwp.ai/wp-content/uploads/2021/08/feature-columns-3.jpg"
+			}
 		]
 	},
 	{
@@ -98,6 +118,12 @@
 			{
 				"slug": "content-columns/paragraph-4",
 				"value": "We also provide expert assembly services to ensure your table is set up correctly."
+			}
+		],
+		"images": [
+			{
+				"slug": "content-columns/image",
+				"src": "https://quickwp.ai/wp-content/uploads/2021/08/content-columns.jpg"
 			}
 		]
 	},
