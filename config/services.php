@@ -38,4 +38,9 @@ return [
     'openai' => [
         'key' => env('OPENAI_API_KEY'),
     ],
+
+    'quickwp' => [
+        'key' => env('QUICKWP_APP_API'),
+        'playground' => env('QUICKWP_PLAYGROUND'),
+    ],
 ];
