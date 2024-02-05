@@ -31,6 +31,7 @@
                 phpExtensionBundles: [ 'kitchen-sink' ],
                 constants: {
                     QUICKWP_APP_API: '{{config('services.quickwp.key')}}',
+                    QUICKWP_APP_GUIDED_MODE: '{{config('services.quickwp.guided')}}',
                 },
                 features: {
                     networking: true

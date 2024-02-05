@@ -42,5 +42,6 @@ return [
     'quickwp' => [
         'key' => env('QUICKWP_APP_API'),
         'playground' => env('QUICKWP_PLAYGROUND'),
+        'guided' => env('QUICKWP_APP_GUIDED_MODE'),
     ],
 ];
