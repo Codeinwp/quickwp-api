@@ -37,6 +37,7 @@ return [
 
     'openai' => [
         'key' => env('OPENAI_API_KEY'),
+        'assistant' => env('OPENAI_ASSISTANT_KEY')
     ],
 
     'quickwp' => [

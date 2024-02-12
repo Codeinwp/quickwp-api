@@ -15,7 +15,17 @@ class RestrictToSameIp
      */
     public function handle(Request $request, Closure $next): Response
     {
-        // We can add more logic here to check if the request is coming from the same IP address or whatever suits our needs at later point.
+        if ( $request->getHost() !== parse_url( url()->current(), PHP_URL_HOST ) ) 
+        {
+            return response(
+                [
+                    'success' => false,
+                    'message' => 'Access denied.'
+                ],
+                403
+            );
+        }
+
         return $next($request);
     }
 }

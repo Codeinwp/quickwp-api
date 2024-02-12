@@ -38,7 +38,7 @@
 		"category": "content",
 		"strings": [
 			{
-				"slug": "content-plain/text",
+				"slug": "content-plain/content",
 				"description": "Main content of the content section"
 			}
 		]

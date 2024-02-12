@@ -11,19 +11,19 @@
 				"description": "Main title of the hero section"
 			},
 			{
-				"slug": "hero-3/feature-1",
+				"slug": "hero-3/item-1",
 				"description": "First feature listed in the hero section"
 			},
 			{
-				"slug": "hero-3/feature-2",
+				"slug": "hero-3/item-2",
 				"description": "Second feature listed in the hero section"
 			},
 			{
-				"slug": "hero-3/feature-3",
+				"slug": "hero-3/item-3",
 				"description": "Third feature listed in the hero section"
 			},
 			{
-				"slug": "hero-3/description",
+				"slug": "hero-3/subtitle",
 				"description": "Descriptive paragraph of the hero section"
 			}
 		],
@@ -69,27 +69,27 @@
 		"category": "features",
 		"strings": [
 			{
-				"slug": "features-row/feature-1/title",
+				"slug": "features-row/item-1/title",
 				"description": "Title for the first feature"
 			},
 			{
-				"slug": "features-row/feature-1/description",
+				"slug": "features-row/item-1/description",
 				"description": "Description of the first feature"
 			},
 			{
-				"slug": "features-row/feature-2/title",
+				"slug": "features-row/item-2/title",
 				"description": "Title for the second feature"
 			},
 			{
-				"slug": "features-row/feature-2/description",
+				"slug": "features-row/item-2/description",
 				"description": "Description of the second feature"
 			},
 			{
-				"slug": "features-row/feature-3/title",
+				"slug": "features-row/item-3/title",
 				"description": "Title for the third feature"
 			},
 			{
-				"slug": "features-row/feature-3/description",
+				"slug": "features-row/item-3/description",
 				"description": "Description of the third feature"
 			}
 		]
@@ -131,51 +131,51 @@
 				"description": "Description for the features grid section"
 			},
 			{
-				"slug": "features-grid/feature-1/title",
+				"slug": "features-grid/item-1/title",
 				"description": "Title for the first feature"
 			},
 			{
-				"slug": "features-grid/feature-1/description",
+				"slug": "features-grid/item-1/description",
 				"description": "Description for the first feature"
 			},
 			{
-				"slug": "features-grid/feature-2/title",
+				"slug": "features-grid/item-2/title",
 				"description": "Title for the second feature"
 			},
 			{
-				"slug": "features-grid/feature-2/description",
+				"slug": "features-grid/item-2/description",
 				"description": "Description for the second feature"
 			},
 			{
-				"slug": "features-grid/feature-3/title",
+				"slug": "features-grid/item-3/title",
 				"description": "Title for the third feature"
 			},
 			{
-				"slug": "features-grid/feature-3/description",
+				"slug": "features-grid/item-3/description",
 				"description": "Description for the third feature"
 			},
 			{
-				"slug": "features-grid/feature-4/title",
+				"slug": "features-grid/item-4/title",
 				"description": "Title for the fourth feature"
 			},
 			{
-				"slug": "features-grid/feature-4/description",
+				"slug": "features-grid/item-4/description",
 				"description": "Description for the fourth feature"
 			},
 			{
-				"slug": "features-grid/feature-5/title",
+				"slug": "features-grid/item-5/title",
 				"description": "Title for the fifth feature"
 			},
 			{
-				"slug": "features-grid/feature-5/description",
+				"slug": "features-grid/item-5/description",
 				"description": "Description for the fifth feature"
 			},
 			{
-				"slug": "features-grid/feature-6/title",
+				"slug": "features-grid/item-6/title",
 				"description": "Title for the sixth feature"
 			},
 			{
-				"slug": "features-grid/feature-6/description",
+				"slug": "features-grid/item-6/description",
 				"description": "Description for the sixth feature"
 			}
 		]

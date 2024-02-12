@@ -1,0 +1,191 @@
+[
+
+	{
+		"order": 1,
+		"slug": "quickwp/hero-cover",
+		"name": "Hero Cover",
+		"description": "Hero sections are used to introduce the product or service. They are the first and primary section of the website. This is a centered hero section with a large title, a subtitle and two buttons.",
+		"category": "heroes_page_titles",
+		"strings": [
+			{
+				"slug": "hero-cover/title",
+				"description": "Main title of the hero section"
+			},
+			{
+				"slug": "hero-cover/subtitle",
+				"description": "Subtitle of the hero section"
+			},
+			{
+				"slug": "hero-cover/button-primary",
+				"description": "Primary button text of the hero section"
+			},
+			{
+				"slug": "hero-cover/button-secondary",
+				"description": "Secondary button text of the hero section"
+			}
+		],
+		"images": [
+			{
+				"slug": "hero-cover/image",
+				"description": "Background image of the hero section"
+			}
+		]
+	},
+	{
+		"order": 2,
+		"slug": "quickwp/content-4",
+		"name": "Content 4",
+		"description": "Content columns are used to provide more detailed information about the product or service. This is a two row content section with first paragraph on top, and two in bottom side-by-side.",
+		"category": "content",
+		"strings": [
+			{
+				"slug": "content-4/paragraph-1",
+				"description": "The first paragraph text of the content block."
+			},
+			{
+				"slug": "content-4/paragraph-2",
+				"description": "The second paragraph text of the content block."
+			},
+			{
+				"slug": "content-4/paragraph-3",
+				"description": "The third paragraph text of the content block."
+			}
+		]
+	},
+	{
+		"order": 3,
+		"slug": "quickwp/content-6",
+		"name": "Content 6",
+		"description": "A versatile content block featuring an image and text side by side, with customizable button for action. Ideal for featuring product details, services, or important features.",
+		"category": "content",
+		"strings": [
+			{
+				"slug": "content-6/title",
+				"description": "Title for the content block"
+			},
+			{
+				"slug": "content-6/description",
+				"description": "Description text for the content block"
+			},
+			{
+				"slug": "content-6/button",
+				"description": "Text for the action button in the content block"
+			}
+		],
+		"images": [
+			{
+				"slug": "content-6/image",
+				"description": "Image displayed in the content block"
+			}
+		]
+	},
+	{
+		"order": 4,
+		"slug": "quickwp/features-grid",
+		"name": "Features grid",
+		"description": "Feature columns are used to highlight the main features of the product or service. This section is a three column grid with two rows.",
+		"category": "features",
+		"strings": [
+			{
+				"slug": "features-grid/title",
+				"description": "The title for the features grid section"
+			},
+			{
+				"slug": "features-grid/description",
+				"description": "Description for the features grid section"
+			},
+			{
+				"slug": "features-grid/item-1/title",
+				"description": "Title for the first feature"
+			},
+			{
+				"slug": "features-grid/item-1/description",
+				"description": "Description for the first feature"
+			},
+			{
+				"slug": "features-grid/item-2/title",
+				"description": "Title for the second feature"
+			},
+			{
+				"slug": "features-grid/item-2/description",
+				"description": "Description for the second feature"
+			},
+			{
+				"slug": "features-grid/item-3/title",
+				"description": "Title for the third feature"
+			},
+			{
+				"slug": "features-grid/item-3/description",
+				"description": "Description for the third feature"
+			},
+			{
+				"slug": "features-grid/item-4/title",
+				"description": "Title for the fourth feature"
+			},
+			{
+				"slug": "features-grid/item-4/description",
+				"description": "Description for the fourth feature"
+			},
+			{
+				"slug": "features-grid/item-5/title",
+				"description": "Title for the fifth feature"
+			},
+			{
+				"slug": "features-grid/item-5/description",
+				"description": "Description for the fifth feature"
+			},
+			{
+				"slug": "features-grid/item-6/title",
+				"description": "Title for the sixth feature"
+			},
+			{
+				"slug": "features-grid/item-6/description",
+				"description": "Description for the sixth feature"
+			}
+		]
+	},
+	{
+		"order": 5,
+		"slug": "quickwp/call-to-action-2",
+		"name": "Call to action 2",
+		"description": "Call to action sections are used to encourage users to take an action. This is a call to action section with an action button on the bottom.",
+		"category": "call_to_action",
+		"strings": [
+			{
+				"slug": "call-to-action-2/title",
+				"description": "Main title of the call to action section"
+			},
+			{
+				"slug": "call-to-action-2/subtitle",
+				"description": "Subtitle of the call to action section"
+			},
+			{
+				"slug": "call-to-action-2/button",
+				"description": "Button text of the call to action section"
+			}
+		]
+	},
+	{
+		"order": 6,
+		"slug": "quickwp/testimonial-on-background",
+		"name": "Testimonial on Background",
+		"description": "Testimonial sections are used to show what customers think about the product or service. This section is a centered testimonial.",
+		"category": "testimonials",
+		"strings": [
+			{
+				"slug": "testimonial-on-background/testimonial",
+				"description": "Testimonial for the website"
+			},
+			{
+				"slug": "testimonial-on-background/name",
+				"description": "Name of an author, preferably a dummy name"
+			}
+		],
+		"images": [
+			{
+				"slug": "testimonial-on-background/image",
+				"description": "Image of the testimonial author"
+			}
+		]
+	}
+]

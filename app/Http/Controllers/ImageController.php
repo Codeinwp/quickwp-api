@@ -52,6 +52,7 @@ class ImageController extends Controller
                 [
                     'query' => $query,
                     'per_page' => 30,
+                    'orientation' => 'landscape'
                 ]
             )
         );

@@ -55,7 +55,7 @@
                         step: 'installTheme',
                         themeZipFile: {
                             resource: 'url',
-                            url: '{{asset('wp/themes/quickwp-theme.zip')}}'
+                            url: '{{asset('wp/themes/neve-fse.zip')}}'
                         },
                         options: {
                             activate: true
