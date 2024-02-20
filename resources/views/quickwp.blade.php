@@ -31,7 +31,7 @@
                 landingPage: '/wp-admin/site-editor.php?quickwp=true&canvas=edit',
                 phpExtensionBundles: [ 'kitchen-sink' ],
                 constants: {
-                    QUICKWP_APP_API: '{{config('services.quickwp.key')}}',
+                    QUICKWP_APP_API: '{{ url('/api') }}/',
                     QUICKWP_APP_GUIDED_MODE: '{{config('services.quickwp.guided')}}',
                 },
                 features: {
