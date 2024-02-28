@@ -1,0 +1,114 @@
+[
+
+	{
+		"order": 1,
+		"slug": "quickwp/hero",
+		"name": "Hero",
+		"description": "Hero sections are used to introduce the product or service. They are the first and primary section of the website.",
+		"category": "heroes_page_titles",
+		"strings": [
+			{
+				"slug": "hero/title",
+				"description": "Main title of the hero section"
+			},
+			{
+				"slug": "hero/subtitle",
+				"description": "Subtitle of the hero section"
+			},
+			{
+				"slug": "hero/button-primary",
+				"description": "Primary button text of the hero section"
+			},
+			{
+				"slug": "hero/button-secondary",
+				"description": "Secondary button text of the hero section"
+			}
+		]
+	},
+	{
+		"order": 2,
+		"slug": "quickwp/features",
+		"name": "Features",
+		"description": "Feature are used to highlight the main features of the product or service. This section is a three column grid.",
+		"category": "features",
+		"strings": [
+			{
+				"slug": "features/title",
+				"description": "Main title of the feature section"
+			},
+			{
+				"slug": "features/subtitle",
+				"description": "Subtitle of the call to feature section"
+			},
+			{
+				"slug": "features/item-1/title",
+				"description": "Title of the first feature"
+			},
+			{
+				"slug": "features/item-1/description",
+				"description": "Description of the first feature"
+			},
+			{
+				"slug": "features/item-1/button",
+				"description": "Button text of the first feature"
+			},
+			{
+				"slug": "features/item-2/title",
+				"description": "Title of the second feature"
+			},
+			{
+				"slug": "features/item-2/description",
+				"description": "Description of the second feature"
+			},
+			{
+				"slug": "features/item-2/button",
+				"description": "Button text of the second feature"
+			},
+			{
+				"slug": "features/item-3/title",
+				"description": "Title of the third feature"
+			},
+			{
+				"slug": "features/item-3/description",
+				"description": "Description of the third feature"
+			},
+			{
+				"slug": "features/item-3/button",
+				"description": "Button text of the third feature"
+			}
+		]
+	},
+	{
+		"order": 3,
+		"slug": "quickwp/content",
+		"name": "Content",
+		"description": "Content sections are used to provide more detailed information about the product or service. This is a two column content section with an image on the right.",
+		"category": "content",
+		"strings": [
+			{
+				"slug": "content/subtitle",
+				"description": "A small subtitle that appears on the top of the section, right before the title"
+			},
+			{
+				"slug": "content/title",
+				"description": "Main title of the content section"
+			},
+			{
+				"slug": "content/paragraph-1",
+				"description": "First paragraph of the content section"
+			},
+			{
+				"slug": "content/paragraph-2",
+				"description": "Second paragraph of the content section, with larger font size to emphasize the content"
+			},
+			{
+				"slug": "content/paragraph-3",
+				"description": "Third paragraph of the content section"
+			},
+			{
+				"slug": "content/paragraph-4",
+				"description": "Fourth paragraph of the content section. It appears on the right side above the image"
+			}
+		]
+	}
+]

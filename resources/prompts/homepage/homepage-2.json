@@ -1,0 +1,176 @@
+[
+	{
+		"order": 1,
+		"slug": "quickwp/hero-cover",
+		"name": "Hero Cover",
+		"description": "Hero sections are used to introduce the product or service. They are the first and primary section of the website. This is a centered hero section with a large title, a subtitle and two buttons.",
+		"category": "heroes_page_titles",
+		"strings": [
+			{
+				"slug": "hero-cover/title",
+				"description": "Main title of the hero section"
+			},
+			{
+				"slug": "hero-cover/subtitle",
+				"description": "Subtitle of the hero section"
+			},
+			{
+				"slug": "hero-cover/button-primary",
+				"description": "Primary button text of the hero section"
+			},
+			{
+				"slug": "hero-cover/button-secondary",
+				"description": "Secondary button text of the hero section"
+			}
+		],
+		"images": [
+			{
+				"slug": "hero-cover/image",
+				"description": "Background image of the hero section"
+			}
+		]
+	},
+	{
+		"order": 2,
+		"slug": "quickwp/content-plain",
+		"name": "Content Plain",
+		"description": "Content columns are used to provide more detailed information about the product or service. This is a single column content section.",
+		"category": "content",
+		"strings": [
+			{
+				"slug": "content-plain/content",
+				"description": "Main content of the content section"
+			}
+		]
+	},
+	{
+		"order": 3,
+		"slug": "quickwp/feature-columns-2",
+		"name": "Feature Columns",
+		"description": "Feature columns are used to highlight the main features of the product or service. This section is a two column grid.",
+		"category": "features",
+		"strings": [
+			{
+				"slug": "feature-columns-2/item-1/title",
+				"description": "Title of the first feature"
+			},
+			{
+				"slug": "feature-columns-2/item-1/description",
+				"description": "Description of the first feature"
+			},
+			{
+				"slug": "feature-columns-2/item-1/button",
+				"description": "Button text of the first feature"
+			},
+			{
+				"slug": "feature-columns-2/item-2/title",
+				"description": "Title of the second feature"
+			},
+			{
+				"slug": "feature-columns-2/item-2/description",
+				"description": "Description of the second feature"
+			},
+			{
+				"slug": "feature-columns-2/item-2/button",
+				"description": "Button text of the second feature"
+			}
+		],
+		"images": [
+			{
+				"slug": "feature-columns-2/item-1/image",
+				"description": "Image of the first feature"
+			},
+			{
+				"slug": "feature-columns-2/item-2/image",
+				"description": "Image of the second feature"
+			}
+		]
+	},
+	{
+		"order": 4,
+		"slug": "quickwp/testimonial-centered",
+		"name": "Testimonial Centered",
+		"description": "Testimonial sections are used to show what customers think about the product or service. This section is a centered testimonial.",
+		"category": "testimonials",
+		"strings": [
+			{
+				"slug": "testimonial-centered/testimonial",
+				"description": "Testimonial for the website"
+			},
+			{
+				"slug": "testimonial-centered/name",
+				"description": "Name of an author, preferably a dummy name"
+			}
+		],
+		"images": [
+			{
+				"slug": "testimonial-centered/image",
+				"description": "Image of the testimonial author"
+			}
+		]
+	},
+	{
+		"order": 5,
+		"slug": "quickwp/content-on-background",
+		"name": "Content on Background",
+		"description": "Content sections are used to provide more detailed information about the product or service. This is a content section with an image on center.",
+		"category": "content",
+		"strings": [
+			{
+				"slug": "content-on-background/title",
+				"description": "Title for the content section"
+			},
+			{
+				"slug": "content-on-background/subtitle",
+				"description": "Subtitle for the content section"
+			},
+			{
+				"slug": "content-on-background/paragraph-1",
+				"description": "First paragraph text"
+			},
+			{
+				"slug": "content-on-background/paragraph-2",
+				"description": "Second paragraph text"
+			},
+			{
+				"slug": "content-on-background/heading",
+				"description": "Heading within the content section"
+			},
+			{
+				"slug": "content-on-background/paragraph-3",
+				"description": "Third paragraph text"
+			},
+			{
+				"slug": "content-on-background/button",
+				"description": "Buttont ext for the content section"
+			}
+		],
+		"images": [
+			{
+				"slug": "content-on-background/image",
+				"description": "Image in the center of the content section"
+			}
+		]
+	},
+	{
+		"order": 6,
+		"slug": "quickwp/call-to-action-2",
+		"name": "Call to action 2",
+		"description": "Call to action sections are used to encourage users to take an action. This is a call to action section with an action button on the bottom.",
+		"category": "call_to_action",
+		"strings": [
+			{
+				"slug": "call-to-action-2/title",
+				"description": "Main title of the call to action section"
+			},
+			{
+				"slug": "call-to-action-2/subtitle",
+				"description": "Subtitle of the call to action section"
+			},
+			{
+				"slug": "call-to-action-2/button",
+				"description": "Button text of the call to action section"
+			}
+		]
+	}
+]
